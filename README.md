@@ -64,7 +64,7 @@ In T flip flop, "T" defines the term "Toggle". In SR Flip Flop, we provide only 
    output qbar;
    always@(posedge clk)
    begin
-   q=((~q)&d)|(q&d);
+   q=d;
    end
    assign qbar=~q;
    endmodule
